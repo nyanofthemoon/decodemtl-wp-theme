@@ -1,0 +1,21 @@
+{
+  "name": "decodemtl/wordpress-theme",
+  "description": "DecodeMTL WordPress Theme",
+  "repositories":[
+    {
+      "type":"composer",
+      "url":"https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "wp-api/wp-api":"2.0-beta13.1",
+    "wpackagist-plugin/polylang":"1.9.2",
+    "grappler/polylang-slug":"^0.2.0",
+    "wpackagist-plugin/user-role-editor":"4.25.2"
+  },
+  "autoload": {
+    "psr-0": {
+      "Acme": "src/"
+    }
+  }
+}

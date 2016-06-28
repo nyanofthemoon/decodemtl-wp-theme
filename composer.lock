@@ -1,0 +1,238 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "9724093088e5a47223e56e74d055f79b",
+    "content-hash": "bd37708c4cbc6c770d1ed4f5213b128f",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v1.0.25",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "ImageCMS",
+                "MODX Evo",
+                "Mautic",
+                "OXID",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "elgg",
+                "fuelphp",
+                "grav",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "time": "2016-04-13 19:46:30"
+        },
+        {
+            "name": "grappler/polylang-slug",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/grappler/polylang-slug.git",
+                "reference": "87f70c3f51b731979ce4365a39bda691183cb169"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/grappler/polylang-slug/zipball/87f70c3f51b731979ce4365a39bda691183cb169",
+                "reference": "87f70c3f51b731979ce4365a39bda691183cb169",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "wpackagist-plugin/polylang": "*"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL2"
+            ],
+            "authors": [
+                {
+                    "name": "Ulrich Pogson",
+                    "email": "grapplerulrich@gmail.com",
+                    "homepage": "http://ulrich.pogson.ch/"
+                }
+            ],
+            "description": "Allows same slug for multiple languages in Polylang",
+            "homepage": "https://github.com/grappler/polylang-slug",
+            "keywords": [
+                "polylang",
+                "wordpress"
+            ],
+            "time": "2016-01-20 08:43:58"
+        },
+        {
+            "name": "wp-api/wp-api",
+            "version": "2.0-beta13.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WP-API/WP-API.git",
+                "reference": "739e7f5cb842dceb5cd06bed4ffd612aecf63387"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WP-API/WP-API/zipball/739e7f5cb842dceb5cd06bed4ffd612aecf63387",
+                "reference": "739e7f5cb842dceb5cd06bed4ffd612aecf63387",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "2.3.4",
+                "wp-coding-standards/wpcs": "0.6.0"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-name": "json-rest-api"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL2+"
+            ],
+            "authors": [
+                {
+                    "name": "WP-API Team",
+                    "homepage": "http://wp-api.org/"
+                }
+            ],
+            "description": "Access your WordPress site's data through an easy-to-use HTTP REST API.",
+            "homepage": "http://wp-api.org/",
+            "time": "2016-05-25 12:24:10"
+        },
+        {
+            "name": "wpackagist-plugin/polylang",
+            "version": "1.9.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/polylang/",
+                "reference": "tags/1.9.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/polylang.1.9.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/polylang/"
+        },
+        {
+            "name": "wpackagist-plugin/user-role-editor",
+            "version": "4.25.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/user-role-editor/",
+                "reference": "tags/4.25.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.25.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/user-role-editor/"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "wp-api/wp-api": 10
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

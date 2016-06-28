@@ -1,0 +1,12 @@
+[submodule "plugins/wp-acf"]
+	path = plugins/wp-acf
+	url = git@github.com:nyanofthemoon/wp-acf.git
+	branch = origin/1.0
+[submodule "plugins/recursive-acf-to-wp-rest-api"]
+	path = plugins/recursive-acf-to-wp-rest-api
+	url = git@github.com:nyanofthemoon/recursive-acf-to-wp-rest-api.git
+	branch = origin/1.0
+[submodule "plugins/wp-api-basic-auth"]
+	path = plugins/wp-api-basic-auth
+	url = git@github.com:nyanofthemoon/wp-api-basic-auth.git
+	branch = origin/1.0
